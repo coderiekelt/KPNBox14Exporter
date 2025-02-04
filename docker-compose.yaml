@@ -1,0 +1,7 @@
+services:
+  node:
+    container_name: box14exporter-node
+    volumes:
+      - ./:/usr/app
+    build:
+      dockerfile: ./Dockerfile
